@@ -4,3 +4,11 @@
 	margin: 0px;
 	box-sizing: border-box;
 }
+
+body {
+	width: 100vm;
+	height: 100vh;
+	background-image: url('./assets/images/bg-mobile.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
