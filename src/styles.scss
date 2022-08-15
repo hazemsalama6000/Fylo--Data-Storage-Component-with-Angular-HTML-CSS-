@@ -1,14 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+$gradient-1: hsl(6, 100%, 80%);
+$gradient-2: hsl(335, 100%, 65%);
+
+$Pale-Blue: hsl(243, 100%, 93%);
+$Grayish-Blue: hsl(229, 7%, 55%);
+$Dark-Blue: hsl(228, 56%, 26%);
+$Very-DarkBlue: hsl(229, 57%, 11%);
+
 * {
-	padding: 0px;
-	margin: 0px;
-	box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-body {
-	width: 100vm;
-	height: 100vh;
-	background-image: url('./assets/images/bg-mobile.png');
-	background-repeat: no-repeat;
-	background-size: cover;
+body{
+  font-family: 'Raleway' !important;
+  font-size: 14px !important;
 }
