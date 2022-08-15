@@ -73,17 +73,21 @@
   position: absolute;
   top: -50%;
   right: 5%;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-.quota-text{
+
+.quota-text {
   background-color: white;
   padding: 1rem;
   font-size: 1rem;
   color: $Grayish-Blue;
   border-radius: 1rem;
+  border-bottom-right-radius:0 ;
 }
 
-.quota-text > strong {
+.quota-text>strong {
   font-size: 3rem;
   font-weight: 700;
   color: $Very-DarkBlue;
@@ -94,8 +98,8 @@
   height: 0;
   border-bottom: 10px solid transparent;
   border-left: 10px solid transparent;
-  border-top: 10px solid white;
-  justify-self: flex-start;
+  border-top: 20px solid white;
+  align-self: flex-end;
 }
 
 .progress {
